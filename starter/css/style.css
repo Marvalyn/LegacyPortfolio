@@ -145,3 +145,64 @@ header{
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
+
+/*My Work*/
+
+.subHeading {
+    text-align: center;
+    border-bottom: 20px;
+    width: 300px;
+    margin: 50px auto;
+    color: #cc005f;
+    font-size: 40px;
+  }
+  
+  #workGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "ph1 ph1"
+    "ph2 Hori"
+    ;
+  }
+  
+  #placeholder1 {
+    grid-area: ph1;
+    background-image: url("../images/02-run-buddy.jpg");
+  
+  }
+  #placeholder2 {
+    grid-area: ph2;
+    background-image: url("../images/02-portfolio-2.jpg");
+  }
+  
+  #Horiseon {
+    grid-area: Hori;
+    background-image: url("../images/Screenshot\ 2022-12-03\ at\ 19.45.53.png");
+  }
+
+  #Horiseon a{
+    text-decoration: none;
+  }
+  
+  
+  .workGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+  
+  .heading {
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #cc005f;
+  }
