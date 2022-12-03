@@ -11,7 +11,7 @@ The webpage can be accessed using any web browser on any device (desktop, laptop
 
 ## Usage
 
-This webpage can be accessed at https://marvalyn.github.io/Portfolio/ the homescreen looks as follows; [Portfolio](../Portfolio/starter/images/Screenshot%202022-12-03%20at%2022.34.15.png)
+This webpage can be accessed at https://marvalyn.github.io/Portfolio/ the homescreen looks as follows; [Portfolio](https://github.com/Marvalyn/Portfolio/blob/201dc46476e6576318f69c1f91d949d9de7a2836/starter/images/Screenshot%202022-12-03%20at%2022.34.15.png)
 
 ## Credits
 
