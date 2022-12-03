@@ -108,6 +108,52 @@ header{
     color: rgba(255, 255, 255, 0.3);
   }
 
+  /*RESPONSIVE*/
+  @media only screen and (max-width:1024px) {
+    .About-Me-Content h1 {
+      font-size: 100px;
+    }
+  }
+
+  @media only screen and (max-width:768px) {
+    #About-Me {
+      min-height: 650px;
+    }
+    .About-Me-Content h1 {
+      font-size: 75px;
+    }
+    .About-Me-Content h5 {
+      font-size: 25px;
+    }
+    .About-Me-Content .About-Me-Position {
+      font-size: 25px;
+    }
+  }
+ 
+  @media only screen and (max-width:600px) {
+    #About-Me {
+      min-height: 480px;
+    }
+    .About-Me-Content h1 {
+      font-size: 480px;
+      margin-bottom: 55px;
+    }
+    .About-Me-Content h5 {
+      font-size: 15px;
+      margin-bottom: 5px;
+      letter-spacing: 3px;
+    }
+    .About-Me-Content .About-Me-Position {
+      font-size: 20px;
+    }
+    .About-Me-Content .About-Me-Position span {
+      padding: 0 .10px;
+    }
+    .About-Me-Content .About-Me-Position span::before, .About-Me-Content .About-Me-Position span::after {
+      display: none ;
+    }   
+}
+
 /* ABOUT SECTION*/
 #about {
 	background: #FFFFFF;
@@ -146,6 +192,32 @@ header{
     text-align: center;
 }
 
+/*RESPONSIVE*/
+@media only screen and (max-width:1024px) {
+    .intro-info {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .intro-info img {
+      height: 100px;
+      width: 175px;
+    }
+
+  }
+  @media only screen and (max-width:600px) {
+    .intro-info {
+      text-align: left;
+      margin-top: 50px;
+    }
+    .intro-info img {
+      height: 80px;
+      width: 120px;
+      float: none;
+      display: inline-block;
+    }
+  }
 /*My Work*/
 
 .subHeading {
@@ -208,6 +280,25 @@ header{
     border-bottom: 5px solid #cc005f;
   }
 
+  /*RESPONSIVE*/
+  @media only screen and (max-width: 1024px) {
+    #My-Work{
+      margin-left: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+  #workGrid{
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "placeholder1"
+  
+    "placeholder2"
+  
+    "Horiseon"
+  }
+}
   /* CONTACT ME*/
 
     #Contact-Me{
@@ -266,5 +357,12 @@ header{
     border-color: white;
     min-width: 300px;
   }
-  
+
   /*FOOTER*/
+  footer {
+    padding: 30px;
+    clear: both;
+    font-family: "sans-serif";
+    text-align: center;
+    color: #cc005f;
+}
