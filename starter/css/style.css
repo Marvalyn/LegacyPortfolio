@@ -1,0 +1,109 @@
+/*HEADER*/
+header{
+    font-family: "poppins-medium";
+    background: #151515;
+}
+/*DROPDOWN BUTTON*/
+
+.menu {
+    background-color:  #FF0077;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 15%;
+    border-radius: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF0077;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: "poppins-medium";
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .menu {background-color: #3e8e41;}
+
+  /* ABOUT ME*/ 
+
+  #About-Me {
+    background: #151515;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 720px;
+    display: table;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  .About-Me-Content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+ 
+  .About-Me-Content h1 {
+    color: #FFFFFF;
+    font-family: "sans-serif";
+    font-size: 135px;
+    line-height: 1.071;
+    max-width: 900px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .About-Me-Content h5 {
+    color: #cc005f;
+    font-family: "sans-serif";
+    font-size: 40px;
+    line-height: 1.565;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .About-Me-Content .About-Me-Position {
+    font-family: "serif";
+    font-size: 30px;
+    line-height: 1.565;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .About-Me-Content .About-Me-Position span {
+    display: inline-block;
+  }
+
+  .About-Me-Content .About-Me-Position span::after {
+    content: "|";
+    text-align: center;
+    display: inline-block;
+    padding: 0 8px 0 14px;
+    color: rgba(255, 255, 255, 0.3);
+  }
