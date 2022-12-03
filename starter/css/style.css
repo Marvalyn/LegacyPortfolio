@@ -107,3 +107,41 @@ header{
     padding: 0 8px 0 14px;
     color: rgba(255, 255, 255, 0.3);
   }
+
+/* ABOUT SECTION*/
+#about {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+}
+#about .section-intro {
+	margin-bottom: 3rem;
+}
+
+.intro-info {
+	margin:120px;
+}
+.intro-info img {
+	height: 150px;
+	width: 250px;
+	border-radius: 15%;
+	margin: 15px 15px 0 0;
+	float: left;
+}
+.intro-info p {
+	text-align: center;
+	padding-left: 13rem;
+    font-size: 20px;
+}
+
+.section-intro h1{
+    color: #cc005f;
+    font-family: "sans-serif";
+    font-size: 40px;
+    line-height: 1.565;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
